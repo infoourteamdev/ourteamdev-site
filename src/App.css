@@ -1,0 +1,74 @@
+body{
+  overflow-x: hidden !important;
+  scroll-behavior: smooth !important;
+  background: #3C065E !important;
+}
+
+.buttonsend:hover{
+  background-color: #ee4fe1 !important;
+  -webkit-transition: ease 0.8s;
+  transition: ease 0.8s;
+}
+
+.cotactInput {
+  border: 1px solid rgba(255,255,255,0.6) !important;
+}
+.cotactInput:hover{
+  border: 1px solid rgba(255,255,255,1) !important;
+}
+
+.menuactive {
+  color: #F97FE9 !important;
+}
+
+.MuiDrawer-paperAnchorRight {
+  background: #47076f !important;
+  width: 200px;
+}
+
+.menudrawer{
+  padding-left: 20px !important;
+}
+
+.main-container{
+  scroll-snap-type: y mandatory;
+}
+
+.child-container {
+  scroll-snap-align: start;
+}
+
+.scroll-container {
+  position: fixed;
+  will-change: transform;
+  right: 0;
+  left: 0;
+}
+
+.risingEffect{
+  will-change: transform;
+  transition: transform 500ms;
+  -webkit-transition: ease 0.8s;
+  transition: ease 0.8s;
+}
+
+.risingEffect:hover{
+  transition: transform 500ms;
+  transform: translateY(-15px);
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
