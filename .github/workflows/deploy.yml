@@ -23,7 +23,7 @@ jobs:
         cache: npm
       
     - name: Install Dependencies
-      run: npm i
+      run: npm install --legacy-peer-deps --save google-maps-react
 
     - name: Build Project
       run:  npm run build --if-present
